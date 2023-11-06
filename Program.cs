@@ -1,6 +1,6 @@
 ﻿using TextInsideMatrix;
 
-string filePath = @"../../../input3.txt";
+string filePath = @"../../../input.txt";
 string[] lines = File.ReadAllLines(filePath);
 var Parser = new Parser();
 char[,] grid = Parser.ConvertToCharArray(lines);
